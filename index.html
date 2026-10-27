@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Science Digital Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#/home"><span class="logo">DS</span>
+      <span><b>DATA SCIENCE DIGITAL LIBRARY</b><small>Your Gateway to Data Science Learning and Innovation.</small></span></a>
+    <nav id="nav">
+      <a href="#/home" data-p="home">Home</a><a href="#/modules" data-p="modules">Modules</a>
+      <a href="#/experiments" data-p="experiments">Experiments</a><a href="#/projects" data-p="projects">Projects</a>
+    </nav>
+    <input id="search" type="search" placeholder="Search modules, experiments, projects" aria-label="Search">
+    <button class="idcard" id="idcard" aria-label="Open student profile"></button>
+  </div>
+</header>
+<main id="app"></main>
+<footer>
+  <div class="foot-in">
+    <div><h4>About the Library</h4><p>A central place for Data Science notes, lab practicals and student projects, built for undergraduate learners.</p></div>
+    <div><h4>Quick links</h4><a href="#/home">Home</a><a href="#/modules">Modules</a><a href="#/experiments">Experiments</a><a href="#/projects">Projects</a></div>
+    <div><h4>Department</h4><p>Department of Data Science<br>School of Computing and Analytics<br>Lab: Block C, Room 204</p></div>
+    <div><h4>Contact</h4><p>library@dsdept.edu<br>+91 40 5555 0142<br>Mon to Sat, 9 AM to 5 PM</p></div>
+  </div>
+  <p class="copy">&copy; 2026 Department of Data Science. All rights reserved.</p>
+</footer>
+<div id="modal" class="modal" hidden></div>
+<div id="toast" class="toast" hidden></div>
+<script src="script.js"></script>
+</body>
+</html>
